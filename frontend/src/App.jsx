@@ -41,7 +41,6 @@ function App() {
   const [expandedEvidence, setExpandedEvidence] = useState(null);
   const [evidenceData, setEvidenceData] = useState({});
 
-  // Scenario selected for each rotation
   const [scenario, setScenario] = useState({});
 
   // ==========================================================
