@@ -22,7 +22,11 @@ import {
 
 import "./App.css";
 
-const API_BASE_URL = "http://127.0.0.1:8000";
+// ==========================================================
+// PRODUCTION BACKEND
+// ==========================================================
+
+const API_BASE_URL = "https://kryptonite-production.up.railway.app";
 
 function App() {
   const [credentials, setCredentials] = useState([]);
